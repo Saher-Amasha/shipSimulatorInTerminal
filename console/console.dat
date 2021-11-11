@@ -1,0 +1,82 @@
+Time 0: Enter command: create Ajax Cruiser (15.00, 15.00) 6 1
+Time 0: Enter command: create Emma Freighter (30.00, 30.00) 8 1000
+Time 0: Enter command: create Xerxes Cruiser (25.00, 25.00) 6 2
+Time 0: Enter command: create Shikishima Patrol_boat (0.0, 0.0) 10
+Time 0: Enter command: show
+Display size: 25, scale: 2.00, origin: (-10.00, -10.00)
+  38 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  32 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . Yo. . . . . . . . . . . . . . Em. . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . Xe. . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  20 . . . . . . . . . . . . . . . Va. . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . Aj. . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . Pe. . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . Sh. . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -4 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -4     2     8    14    20    26    32    38
+
+Time 0: Enter command: create Colombo Freighter (-5.0, 20.0) 8 1000
+Time 0: Enter command: Colombo destination Yokohama 10
+Time 0: Enter command: Emma load_at PearlHarbor
+Time 0: Enter command: Emma unload_at Valdez 100
+Time 0: Enter command: Emma destination PearlHarbor 10
+Time 0: Enter command: Ajax course 180 20
+Time 0: Enter command: Xerxes course 270 20
+Time 0: Enter command: Shikishima destination Nagoya 10
+Time 0: Enter command: go
+Time 1: Enter command: show
+Display size: 25, scale: 2.00, origin: (-10.00, -10.00)
+  38 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  32 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . Yo. . . . . . . . . . . . . . . . . . . 
+     . . . . Co. . . . . . . . . . . . . . . . . . . . 
+  26 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . Xe. . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . Em. . . . . . . . 
+  20 . . . . . . . . . . . . . . . Va. . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  14 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . Pe. . . . . . . . . . . . . . 
+   8 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+   2 . . . . . . . . . . Sh . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+  -4 . . . . . . . . . . . . . . . . . . . . . . . . . 
+     . . . . . . . . . . . . Aj. . . . . . . . . . . . 
+     . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -10 . . . . . . . . . . . . . . . . . . . . . . . . . 
+   -10    -4     2     8    14    20    26    32    38
+   
+Time 1: Enter command: status
+
+Port Nagoya at position (50.00, 5.00), Fuel available: 1001000.0 kl
+Port Valdez at position (20.00, 20.00), Fuel available: 100100.0 kl
+Port PearlHarbor at position (10.00, 10.00), Fuel available: 500500.0 kl
+Port Yokohama at position (0.00, 30.00), Fuel available: 1000.0 kl
+Freighter Colombo at (-0.53, 28.94), fuel: 490.00 kl, resistance: 8, Moving to Yokohama on course 26.57 deg, speed 10.00 nm/hr, Containers: 0, no cargo destinations
+Freighter Emma at (22.93, 22.93), fuel: 490.0 kl, resistance: 8, Moving to PearlHarbor on course 225.00 deg, speed 10.00 nm/hr, Containers: 0, moving to loading destination
+Cruiser Ajax at (15.00, -5.00), force: 6, Moving on course 180.00 deg, speed 20.00 nm/hr
+Cruiser Xerxes at (5.00, 25.00), force: 6, Moving on course 270.00 deg, speed 20.00 nm/hr
+Patrol_boat Shikishima at (9.95, 1.00), fuel: 880.00 kl, resistance: 10, Moving to Nagoya on course 84.29 deg, speed 10.00 nm/hr
